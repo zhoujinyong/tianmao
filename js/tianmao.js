@@ -162,7 +162,7 @@ window.addEventListener('load',function(){
 	}
 	
 	document.onscroll=function(){
-	var Ih=document.title=document.body.scrollTop||document.documentElement.scrollTop;
+	var Ih=document.body.scrollTop||document.documentElement.scrollTop;
 		if(Ih<1000&&aa){
 			aa=0;
 	//		hezi.style.display='none'
